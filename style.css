@@ -1,0 +1,46 @@
+body {
+  background-color: #eee;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter {
+  background-color: #fff;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.counter p {
+  text-align: center;
+  font-size: 10rem;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.counter .buttons {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.counter .buttons button {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.counter .buttons button#sub {
+  background-color: orangered;
+  color: #fff;
+}
+
+.counter .buttons button#add {
+  background-color: green;
+  color: #fff;
+}
